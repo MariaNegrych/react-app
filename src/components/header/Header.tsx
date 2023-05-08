@@ -5,13 +5,16 @@ import "./Header.css";
 
 function Header() {
   return (
-    <div className="nav nav-tabs">
-      <NavLink to={"/"} className="nav-link">
-        Home
-      </NavLink>
-      <NavLink to={"/about"} className="nav-link">
-        About
-      </NavLink>
+    <div>
+      <div className="Header">News</div>
+      <div className="nav nav-tabs">
+        <NavLink to={"/"} className="nav-link">
+          News
+        </NavLink>
+        <NavLink to={"/about"} className="nav-link">
+          About
+        </NavLink>
+      </div>
     </div>
   );
 }

@@ -1,7 +1,8 @@
 .Header {
   margin: 0 auto;
-  width: 200px;
-  background-color: chocolate;
+  background-color: gray;
+  font-weight: bold;
+  color: white;
 }
 
 .Link {

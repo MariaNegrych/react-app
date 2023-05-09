@@ -8,10 +8,10 @@ function Header() {
     <div>
       <div className="Header">News</div>
       <div className="nav nav-tabs">
-        <NavLink to={"/"} className="nav-link">
+        <NavLink to="/" className="nav-link">
           News
         </NavLink>
-        <NavLink to={"/about"} className="nav-link">
+        <NavLink to="/about" className="nav-link">
           About
         </NavLink>
       </div>

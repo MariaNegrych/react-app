@@ -1,5 +1,7 @@
 import React from "react";
 
+import NOT_FOUND_IMG from "../../img/not-found-img.png";
+
 export const Card = (props: any) => {
   const { card } = props;
 
@@ -7,7 +9,7 @@ export const Card = (props: any) => {
     <div className="card" style={{ width: "18rem", margin: "5px" }}>
       <img
         className="card-img-top"
-        src={card.urlToImage || undefined}
+        src={card?.urlToImage || NOT_FOUND_IMG}
         alt="Card image"
       />
       <div className="card-body">

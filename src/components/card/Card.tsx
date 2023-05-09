@@ -9,7 +9,7 @@ export const Card = (props: any) => {
     <div className="card" style={{ width: "18rem", margin: "5px" }}>
       <img
         className="card-img-top"
-        src={card?.urlToImage || NOT_FOUND_IMG}
+        src={card.urlToImage ?? NOT_FOUND_IMG}
         alt="Card image"
       />
       <div className="card-body">
